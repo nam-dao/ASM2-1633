@@ -1,0 +1,94 @@
+.yourWork {
+    padding: 40px 0 30px;
+    border-bottom: 1px solid #ccc;
+    font-size: 2rem;
+}
+
+.heading-project {
+    display: flex;
+    padding: 20px 0;
+    justify-content: space-between;
+}
+
+.heading-project__item {
+    font-size: 1.5rem;
+}
+
+.heading-project__item:nth-child(2) {
+    color: #1963d1;
+}
+
+.heading-project__item:nth-child(2):hover {
+    text-decoration: underline;
+}
+
+.list-project {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.list-project__item {
+    width: 255px;
+    min-height: 175px;
+    border-radius: 3px;
+    box-shadow: 0px 0px 10px 1px #ccc;
+    display: flex;
+    flex-direction: column;
+    transition: 0.5s;
+}
+
+.list-project__item:hover {
+    box-shadow: 1px 2px 10px 8px #ccc;
+}
+
+.list-project__item-heading {
+    font-size: 1.5rem;
+    padding-left: 30px;
+    padding-top: 20px;
+    color: #8e7af1;
+}
+
+.list-project__item-summary {
+    font-size: 1.2rem;
+    margin-left: 30px;
+    padding-top: 20px;
+}
+
+.list-project__item-todo {
+    font-size: 1.5rem;
+    padding-left: 30px;
+    padding-top: 20px;
+    color: #6e6d6d;
+}
+
+.list-project__item-todo-list {
+    font-size: 1.2rem;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+
+.seperate {
+    margin-top: 50px;
+    border: 1px solid #ccc;
+}
+
+.zero {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 320px;
+}
+
+.zero__item:nth-child(2) {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.zero__item:nth-child(3) {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}

@@ -1,0 +1,184 @@
+.main-cover {
+    margin-top: 3px;
+    display: flex;
+    margin-left: -30px;
+    height: calc(100vh + 110px);
+}
+
+.main-cover__left {
+    width: 220px;
+    padding-left: 30px;
+    background: #fafbfc;
+    border-right: 1px solid #ccc;
+}
+
+.main-cover__left-heading {
+    margin-top: 35px;
+    margin-bottom: 10px;
+    font-size: 2.5rem;
+    color: #000;
+}
+
+.main-cover__left-type {
+    margin-bottom: 10px;
+    font-size: 1.8rem;
+    color: #63b3ef;
+}
+
+.main-cover__left-desc {
+    font-size: 1.5rem;
+    color: #ccc;
+}
+
+.planning {
+    display: block;
+    margin-top: 100px;
+    font-size: 1.5rem;
+    color: #000;
+}
+
+.planning-item {
+    display: flex;
+    align-items: center;
+    padding: 10px 0px 11px 16px;
+    margin-left: -16px;
+    border-radius: 4px;
+    transition: 0.5s;
+}
+
+.planning-item:hover {
+    background: #e6effc;
+}
+
+.planning-item__inside {
+    font-size: 1.5rem;
+    padding-left: 15px;
+}
+
+.main-cover__right-heading {
+    font-size: 2.5rem;
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-bottom: 50px;
+}
+
+.main-cover__right-bottom {
+    display: flex;
+    gap: 30px;
+}
+
+.main-cover__right-desc2 {
+    display: flex;
+    margin-left: 40px;
+    gap: 390px;
+}
+
+.main-cover__right-desc {
+    font-size: 1.5rem;
+}
+
+
+.not-done,
+.done {
+    border: 1px solid #ccc;
+    width: 400px;
+    min-height: 300px;
+}
+
+.main-cover__right-bottom {
+    margin-top: 10px;
+    margin-left: 40px;
+}
+
+.todo-item {
+    border: 1px solid #ccc;
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 350px;
+    cursor: grab;
+}
+
+.todo-item:last-child {
+    margin-bottom: 20px;
+}
+
+.todo-item__name {
+    font-size: 2rem;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+.todo-item__desc {
+    font-size: 1.5rem;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+.todo-item__time {
+    font-size: 2rem;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.todo-item__cta {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.todo-item__update {
+    font-size: 1.5rem;
+}
+
+.todo-item__update:hover {
+    text-decoration: underline;
+}
+
+.todo-item__delete {
+    margin-right: 20px;
+}
+
+.main-cover__right-des-project {
+    margin-left: 40px;
+    margin-top: 30px;
+}
+
+.main-cover__right-des-project__item {
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+.form-cta {
+    display: flex;
+    position: absolute;
+    right: 35px;
+    gap: 30px;
+    margin-top: 25px;
+}
+
+.form-cta__cancel {
+    font-size: 1.5rem;
+    color: #8993a4;
+    padding: 10px 20px;
+}
+
+.form-cta__cancel:hover {
+    color: #b4bdcd;
+    text-decoration: underline;
+}
+
+.form-cta__create {
+    font-size: 1.5rem;
+    color: #FFF;
+    background: #1963d1;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+}
+
+.form-cta__create:hover {
+    opacity: 0.8;
+}
