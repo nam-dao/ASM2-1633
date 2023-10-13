@@ -1,7 +1,6 @@
 let lists = document.querySelectorAll(".todo-item");
 let left = document.querySelector(".not-done");
 let right = document.querySelector(".done");
-
 for (let list of lists) {
     list.addEventListener("dragstart", function (e) {
         let selected = e.target;
@@ -21,4 +20,12 @@ for (let list of lists) {
             selected = null;
         });
     });
+}
+
+function deleteProject() {
+    if (lists.length > 0) {
+        alert("You must delete all issue first");
+        return false;
+    }
+    return true;
 }

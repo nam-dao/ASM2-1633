@@ -60,7 +60,8 @@
                         </p>
                         <p class="main-cover__right-des-project__item">Deadline for {{ $project->name }}:
                             {{ $project->deadline }}</p>
-                        <form action="{{ url('/projects/' . $project->id) }}" method="post">
+                        <form action="{{ url('/projects/' . $project->id) }}" method="post"
+                            onsubmit="return deleteProject()">
                             {{ method_field('DELETE') }}
                             @csrf
                             <div class="form-cta">
